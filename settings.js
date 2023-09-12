@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 global.creator = 'ARKINDOGEN'// yourname
-global.MONGO_DB_URI = "GenBot" //database mongodb 
+global.MONGO_DB_URI = "GenBotdb" //database mongodb 
 global.ACTIVATION_TOKEN_SECRET = "©ARK INDO GEN" //isi apa aja bebas
 global.your_email = "admin@realarkindogen.online" //email
 global.email_password = "" //application password email

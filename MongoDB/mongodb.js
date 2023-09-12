@@ -13,4 +13,4 @@ function connectmongodb() {
     });
 };
 
-module.exports.connectmongodb = connectGenBotDb;
+module.exports.connectmongodb = connectmongoDb;

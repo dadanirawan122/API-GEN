@@ -1,7 +1,7 @@
 require('../settings');
 const mongoose = require('mongoose');
 
-function connectMongoDb() {
+function connectGenBotdb() {
     mongoose.connect(MONGO_DB_URI, { 
       useNewUrlParser: true, 
       useUnifiedTopology: true
@@ -9,8 +9,8 @@ function connectMongoDb() {
     const db = mongoose.connection;
     db.on('error', console.error.bind(console, 'connection error:'));
     db.once('open', () => {
-      console.log('Succes connect to MONGODB ✅');
+      console.log('Succes connect to GenBotdb ✅');
     });
 };
 
-module.exports.connectMongoDb = connectMongoDb;
+module.exports.connectGenBotdb = connectGenBotDb;
